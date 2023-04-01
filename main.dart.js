@@ -34790,7 +34790,7 @@ EP(a,b,c){var s,r=null,q=A.a9Q(b,A.oC(r,r,r,r,r,r,r,r,r,r,r,24,r,r,r,r,r,!0,r,r,
 o=a.X(o).f
 s=!0
 s=s?B.uS:r
-return A.ac1(A.a([new A.hi(B.aQ,q,r),A.Rw(new A.Bx(new A.a0d(1,n.a.a/(o.a.b/3)),new A.a08(new A.a4G(c),p,!0,!0,!0,r),r,B.aX,!1,r,r,s,!1,r,p,B.aZ,B.DA,r,B.ah,r))],t.F),B.eB,B.ds)}}
+return A.ac1(A.a([new A.hi(B.aQ,q,r),A.Rw(new A.Bx(new A.a0d(1,n.a.a/(o.a.b/2)),new A.a08(new A.a4G(c),p,!0,!0,!0,r),r,B.aX,!1,r,r,s,!1,r,p,B.aZ,B.DA,r,B.ah,r))],t.F),B.eB,B.ds)}}
 A.a4G.prototype={
 $2(a,b){var s,r=null,q=this.a,p=q[b].i(0,"image")
 p.toString
@@ -63821,10 +63821,10 @@ $.adf=null
 $.adg=null
 $.acC=null
 $.acD=null
-$.ard=function(){var s=t.N
-return A.a([A.ax(["image","assets/images/ir_para_escola.jpeg","desc","Ir para a escola"],s,s),A.ax(["image","assets/images/jogar_bola.jpeg","desc","Jogar bola"],s,s),A.ax(["image","assets/images/levantar.jpeg","desc","Levantar"],s,s),A.ax(["image","assets/images/passear.jpeg","desc","Passear"],s,s),A.ax(["image","assets/images/se_vestir.jpeg","desc","Se vestir"],s,s)],t.A7)}()
 $.are=function(){var s=t.N
-return A.a([A.ax(["image","assets/images/assistir_tv.jpeg","desc","Assistir TV"],s,s),A.ax(["image","assets/images/brincar.jpeg","desc","Brincar"],s,s),A.ax(["image","assets/images/comer.jpeg","desc","Comer"],s,s),A.ax(["image","assets/images/dormir.jpeg","desc","Dormir"],s,s),A.ax(["image","assets/images/ir_ao_banheiro.jpeg","desc","Ir ao banheiro"],s,s),A.ax(["image","assets/images/tomar_banho.jpeg","desc","Tomar banho"],s,s),A.ax(["image","assets/images/tomar_agua.jpeg","desc","Tomar \xe1gua"],s,s)],t.A7)}()
+return A.a([A.ax(["image","assets/images/ir_para_escola.jpeg","desc","Ir para a escola"],s,s),A.ax(["image","assets/images/passear.jpeg","desc","Passear"],s,s),A.ax(["image","assets/images/jogar_bola.jpeg","desc","Jogar bola"],s,s),A.ax(["image","assets/images/brincar.jpeg","desc","Brincar"],s,s),A.ax(["image","assets/images/assistir_tv.jpeg","desc","Assistir TV"],s,s)],t.A7)}()
+$.ard=function(){var s=t.N
+return A.a([A.ax(["image","assets/images/levantar.jpeg","desc","Levantar"],s,s),A.ax(["image","assets/images/dormir.jpeg","desc","Dormir"],s,s),A.ax(["image","assets/images/tomar_banho.jpeg","desc","Tomar banho"],s,s),A.ax(["image","assets/images/ir_ao_banheiro.jpeg","desc","Ir ao banheiro"],s,s),A.ax(["image","assets/images/se_vestir.jpeg","desc","Se vestir"],s,s),A.ax(["image","assets/images/comer.jpeg","desc","Comer"],s,s),A.ax(["image","assets/images/tomar_agua.jpeg","desc","Tomar \xe1gua"],s,s)],t.A7)}()
 $.akE=A.aq3()
 $.a9_=0
 $.Be=A.a([],A.a5("w<ati>"))
