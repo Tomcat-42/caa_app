@@ -1,0 +1,23 @@
+name: CI/CD
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+  discussions: write
+jobs:
+  build-test-deploy:
+    runs-on: ubuntu-latest
+    name: Build, test, deploy to docker hub and release
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+      - run: flutter pub get
+      # - run: flutter test
+      - run: flutter build web --release --base-href="/caa_app/"
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build/web # The folder the action should deploy.

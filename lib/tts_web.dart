@@ -8,10 +8,8 @@ void speak(String text) {
     return;
   }
   // window.speechSynthesis?.cancel(); // Cancel any ongoing speech synthesis
-  print('speak: $text');
   final SpeechSynthesisUtterance utterance = SpeechSynthesisUtterance()
     ..text = text;
-  print(utterance.text);
 
   // You can set language, pitch, and rate for the utterance as needed. For example:
   utterance.lang = 'pt-BR';
@@ -22,6 +20,5 @@ void speak(String text) {
       ?.getVoices()
       .firstWhere((voice) => voice.lang == 'pt-BR');
 
-  // play the utterance
   window.speechSynthesis?.speak(utterance);
 }
