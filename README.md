@@ -1,16 +1,15 @@
-# caa_app
+# CAA
 
-A new Flutter project.
+O CAA é uma ferramenta de apoio pedagógico que visa o auxilio de alunos com
+deficiência auditiva em seus primeiros anos de escolaridade.
 
-## Getting Started
+## Notas
 
-This project is a starting point for a Flutter application.
+O projeto e um prototipo em estagio inicial de desenvolvimento, portanto muitas
+das funcionalidades nao estao implementadas.
 
-A few resources to get you started if this is your first Flutter project:
+## Roadmap
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- \[ \] Sistema de login
+- \[ \] CRUD de imagens e descricoes
+- \[ \] Tela de configuracoes(TTS principalmente)
